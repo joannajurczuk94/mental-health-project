@@ -57,11 +57,77 @@ h1 {
     font-weight: 500;
 }
 h1 {
-    font-size: 7.125rem;
+    font-size: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    padding-top: 3rem;
+}
+
+.corona-img {
+width: 100%;
+height: 35rem;
+}
+/*.description {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: red;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-left: 5rem;
+    font-weight: 200;
+    margin-top: 5rem ;
+    align-self: center;
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2em;
 
 }
+
+p {
+    font-size: 25px;
+    
+}
+.types, .look {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    color:blue;
+
+}
+.types p {
+    font-size: 25px;
+    color: black;
+}
+.look p {
+    font-size: 25px;
+    color: black;
+}
+
+
