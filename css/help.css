@@ -1,0 +1,290 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 3px;
+    margin: 05px;
+}
+
+.header {
+    min-width: 37.5rem;
+    height: 4.375rem;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 1px solid #DDD;
+}
+
+.header .logo {
+    justify-content: left;
+    height: 4.4rem;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.navigation__item:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.navigation__item--active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.header .logo {
+    justify-content: left;
+    height: 5rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --color1: rgb(34, 7, 91);
+    --color2: rgb(98, 61, 218);
+    --color3: rgb(150, 161, 235);
+    --color4: rgb(128, 14, 137);
+}
+
+
+
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+input,
+textarea {
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+button {
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: var(--color2);
+    color: white;
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color2);
+    padding: 10px 30px;
+    border-radius: 60px;
+}
+
+.header .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .menu a {
+    font-weight: 600;
+    color: black;
+}
+
+.content h1 span,
+.header span {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--color4);
+}
+
+.content h1 {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+.content .about {
+    display: flex;
+    justify-content: center;
+    width: 110%;
+}
+
+.content .about img {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 15px solid var(--color3);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    padding: 10px;
+
+
+}
+
+
+
+
+.content .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.content .toolbar {
+    display: flex;
+    gap: 20px;
+}
+
+.content .toolbar a {
+    background-color: var(--color3);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: 3px 3px 8px var(--color4);
+}
+
+.section {
+    width: 60%;
+}
+
+.section .card {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color3);
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+    gap: 40px;
+    box-shadow: 3px 3px 8px var(--color4);
+}
+
+.section .card h2 {
+    color: var(--color1);
+}
+
+.section .card .left {
+    flex: 3;
+}
+
+.section .card .right {
+    flex: 2;
+}
+
+.section .form-row {
+    margin-bottom: 20px;
+}
+
+.nav {
+    position: fixed;
+    background: var(--clr-dark);
+    color: var(--clr-light);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px dotted gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    border-top: 1px solid var(--grey-light);
+    margin: 4rem 2rem 0;
+}
+
+.footer__text {
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__links__icon {
+    width: 30px;
+    height: auto;
+    padding: 0 2rem;
+}
+
+.footer__text--muted {
+    padding: 2rem;
+    font-size: 1rem;
+    color: var(--grey-light);
+}

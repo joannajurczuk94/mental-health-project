@@ -1,2 +1,1 @@
-Hello guys, we will talk about our duties later. 
-I tried something for pull from the github
+Hiiii Guys, don't forget typing pull to your branch from repository before working, it is important, i did something for showing you.

@@ -57,7 +57,7 @@ h1 {
 }
 
 .intro {
-    background-image: url("../img/first-background.jpg");
+    background-image: url("../img/images6.jpeg");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ h1 {
 .intro__h1,
 .intro__h3 {
     color: white;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 7.125rem;
     margin-bottom: 1rem;
     
@@ -187,7 +187,7 @@ button:hover {
 }
 
 .rect-get-karma p {
-    font-size: 42px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 400;
     width: 800px;
@@ -249,4 +249,3 @@ button:hover {
     font-size: 1rem;
     color: var(--grey-light);
 }
-
